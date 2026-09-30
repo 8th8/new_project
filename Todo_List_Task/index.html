@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <p class="title">Project Task Manager</p>
+        </header>
+
+        <article class="task-manager">
+            <section class="search-box">
+                <form class="search">
+                    <input type="text" name="searchTask" placeholder="search task" autocomplete="off">
+                    <i class="bi bi-x-crircle reset">X</i>
+                </form>
+            </section>
+
+            <section class="task-box">
+                <ul class="tasks">
+                    <li>
+                        <span>Learn HTML</span>
+                        <i class="bi bi-trash-fill delete"></i>
+                    </li>
+                    <li>
+                        <span>Learn JS</span>
+                        <i class="bi bi-trash-fill delete"></i>
+                    </li>
+                </ul>
+                <form class="form-tasks">
+                    <input type="text" name="task" placeholder="add task" autocomplete="off">
+                    <input type="submit" value="Add">
+                </form>
+            </section>
+
+            <section class="messager">
+                <span>You have 2 pending tasks</span>
+                <button class="clear">Clear ALL</button>
+            </section>
+
+        </article>
+    </main>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
